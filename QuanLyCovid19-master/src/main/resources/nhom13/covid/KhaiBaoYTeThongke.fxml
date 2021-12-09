@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nhom13.covid.Controller.KhaiBaoYteThongke">
+   <children>
+      <PieChart fx:id="pieChart" layoutX="25.0" layoutY="13.0" legendSide="LEFT" prefHeight="523.0" prefWidth="750.0" title="Thống kê theo triệu chứng" />
+   </children>
+</AnchorPane>
